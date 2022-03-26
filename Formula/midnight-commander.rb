@@ -1,4 +1,4 @@
-class MidnightCommanderStable < Formula
+class MidnightCommander < Formula
   desc "GNU Midnight Commander is a visual file manager"
   homepage "https://www.midnight-commander.org/"
   url "https://www.midnight-commander.org/downloads/mc-4.8.1.7.tar.xz"
