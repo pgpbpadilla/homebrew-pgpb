@@ -54,7 +54,10 @@ do NOT modify it, modify the Org file instead.
        : pgpbpadilla/pgpb/gnupg@2.2.41
        : gnu-go
     8. I ended up creating [[file:Formula/gnupg@2.2.41.rb][this formula]] to install =gnupg@2.2.41=
-       
+    9. Install it from the tap:
+       #+begin_example bash
+       brew install gnupg@2.2.41
+       #+end_example
        
 
 *** Midnight Commander
@@ -68,15 +71,13 @@ do NOT modify it, modify the Org file instead.
 
     To install MC, simply do:
 
-    #+begin_src bash
-      brew tap pgpbpadilla/pgpb brew info
-      pgpbpadilla/pgpb/midnight-commander brew install
-      pgpbpadilla/pgpb/midnight-commander
-    #+end_src
+    #+begin_example
+      brew tap pgpbpadilla/pgpb
+      brew info pgpbpadilla/pgpb/midnight-commander
+      brew install pgpbpadilla/pgpb/midnight-commander
+    #+end_example
 
-    #+RESULTS:
     
-
 **** Related
 
     1) [[http://midnight-commander.org/ticket/4356][midnight-commander#4356]]: Subshell returns to panels view on key
