@@ -1,7 +1,10 @@
 class GnupgAT2241 < Formula
   desc "GNU Pretty Good Privacy (PGP) package"
   homepage "https://gnupg.org/"
+  # 1. Download the working version 
   url "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.41.tar.bz2"
+  # 2. Update shasum:
+  # > curl -sL $URL | shasum -a 256
   sha256 "13f3291007a5e8546fcb7bc0c6610ce44aaa9b3995059d4f8145ba09fd5be3e1"
   license "GPL-3.0-or-later"
 
