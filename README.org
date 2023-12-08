@@ -14,14 +14,20 @@ do NOT modify it, modify the Org file instead.
 
    To register a tap in Homebrew do:
 
-   #+begin_src bash :results verbatim
+   #+begin_example bash
      brew tap pgpbpadilla/pgpb 
-   #+end_src
+   #+end_example
 
-   #+RESULTS:
 
 *** GnuPG 2.2.41
 
+    TL;DR;
+    
+    #+begin_example bash
+    brew install gnupg@2.2.41
+    #+end_example
+
+    
     Background:
     
     1. After running an upgrade with =homebrew=, the package =gnupg=
