@@ -1,4 +1,4 @@
-#+PROPERTY: header-args:bash  :results verbatim
+#+PROPERTY: header-args:bash  :results verbatim :exports both
 
 * Homebrew tap: pgpb
 
